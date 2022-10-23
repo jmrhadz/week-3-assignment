@@ -194,3 +194,9 @@ console.log("problem 13: ", howManyCandyCornToGetTo(16,"m"),", expected: 630 cc"
 console.log("problem 13: ", howManyCandyCornToGetTo(10,"km"),", expected: 393701 cc");
 console.log("problem 13: ", howManyCandyCornToGetTo(10,"mi"),", expected: 633,600 cc");
 console.log("problem 13: ", howManyCandyCornToGetTo(10,"ft"),", expected: 120 cc");
+
+/* Some potential updates or changes:
+User inputs 2 actual places, searchable on google maps or open street map,
+  > displays the number of candycorn based on the distance needed to drive, walk or take public transport
+calculates quantity of candycorn equivalent mass and number of standard Brachs bags required   
+  > compares mass with other known entities, like large animals, celebrities, planets, etc. */
