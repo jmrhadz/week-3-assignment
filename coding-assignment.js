@@ -16,7 +16,7 @@ console.log("problem 1b: ", ages.at(-1)-ages[0], ", expected: 42");
 
 // 1c Use a loop to iterate through the array and calculate the average age. 
 
-let total = 0;
+let total = 0; //initialized an accumulator variable at 0;
 for(var i = 0; i<ages.length; i++){
     total += ages[i];
     }
@@ -59,7 +59,7 @@ console.log("problem 3: ",names.at(-1),", expected: Bob");  // uses the at metho
 // 4.  How do you access the first element of any array?
 console.log("problem 4: ", names[0], ", expected: Sam");
 //or
-console.log("problem 4: ", names.at(0), ", exptected: Sam");
+console.log("problem 4: ", names.at(0), ", expected: Sam");
 
 // 5. Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
 // For example:
@@ -133,7 +133,7 @@ console.log("problem 11: ", compareArrays(nameLengths,ages), ", expected: false"
 
 // 12.  Write a function called willBuyDrink that takes a boolean isHotOutside, and a number moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
 function willBuyDrink(isHotOutside,moneyInPocket){
-    return (isHotOutside) && (moneyInPocket>10.50)
+    return (isHotOutside) && (moneyInPocket>10.50);
 }
 
 console.log("problem 12: ", willBuyDrink(true,10.51),", expected: true"); // logs the function and passes in parameters that should result in true
@@ -175,7 +175,7 @@ function howManyCandyCornToGetTo(distance, units){
         case "kilometres":
         case "kilometer":
         case "kilometre":               //multiply by 39370 to get inches
-            numberOfCC = distance * 39370;;
+            numberOfCC = distance * 39370;
             break;
         // mi, miles, mile
         case "mi":
