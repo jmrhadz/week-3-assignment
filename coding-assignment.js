@@ -1,4 +1,4 @@
-// All questions must be printed to your Browser’s console:
+/*// All questions must be printed to your Browser’s console:
 
 // 1.  Create an array called ages that contains the following values: 3, 9, 23, 64, 2, 8, 28, 93.
     // 1.a Programmatically subtract the value of the first element in the array from the value in the last element of the array 
@@ -139,7 +139,7 @@ function willBuyDrink(isHotOutside,moneyInPocket){
 console.log("problem 12: ", willBuyDrink(true,10.51),", expected: true"); // logs the function and passes in parameters that should result in true
 console.log("problem 12: ", willBuyDrink(true,10.30),", expected: false"); // logs the function and passes in not enough money in pocket
 console.log("problem 12: ", willBuyDrink(false,10.51),", expected: false"); // logs the function and passes in false to isHotOutside
-
+*/
 // 13.  Create a function of your own that solves a problem. 
 // In comments, write what the function does and why you created it.
 
@@ -200,3 +200,7 @@ User inputs 2 actual places, searchable on google maps or open street map,
   > displays the number of candycorn based on the distance needed to drive, walk or take public transport
 calculates quantity of candycorn equivalent mass and number of standard Brachs bags required   
   > compares mass with other known entities, like large animals, celebrities, planets, etc. */
+
+let userInput = prompt("How far do you need to go? (Put a space between the distance and the units, ex 1234567 miles or 24 km");
+userInput = userInput.split(" ");
+alert(howManyCandyCornToGetTo(userInput[0],userInput[1])); 
